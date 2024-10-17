@@ -33,7 +33,7 @@ internal class MainModule
                 {
                     case 1:
                         // Create a policy
-                        Console.Write("Enter Policy Number: ");
+                        Console.Write("Enter Policy Number (Eg.: POLICY677): ");
                         string polNum = Console.ReadLine();
                         Policy policy1 = new Policy { PolicyNumber = polNum };
                         bool created = insuranceServiceImpl.CreatePolicy(policy1);
