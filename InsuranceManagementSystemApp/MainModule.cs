@@ -101,6 +101,7 @@ internal class MainModule
                         break;
 
                     case 6:
+                        //Exit
                         Console.WriteLine("Exiting...");
                         break;
 
